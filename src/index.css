@@ -20,11 +20,13 @@ form {
   /* Black with transparency */
   padding: 30px;
   border-radius: 10px;
-  max-width: 400px;
-  width: 100vw;
+  /* max-width: 400px; */
+  width: 500px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   color: #fff;
   /* White text */
+  height: 500px;
+
 }
 
 /* Styling for the form heading */
@@ -36,7 +38,7 @@ form h2 {
 
 /* Container for each form field */
 form div {
-  margin-bottom: 15px;
+  margin-bottom: 18px;
 }
 
 /* Styling for the labels */
@@ -47,8 +49,7 @@ form label {
 }
 
 /* Styling for the input fields */
-form input[type="text"],
-form input[type="password"] {
+form input {
   width: 96%;
   padding: 10px;
   border: none;
@@ -56,6 +57,7 @@ form input[type="password"] {
   background-color: rgba(106, 102, 102, 0.2);
   /* Light transparency */
   color: #fff;
+  margin-bottom: 22px;
 }
 
 /* Input focus effect */
@@ -64,6 +66,7 @@ form input[type="password"]:focus {
   outline: none;
   background-color: rgba(255, 255, 255, 0.3);
   /* Slightly lighter transparency */
+
 }
 
 /* Styling for the submit button */
