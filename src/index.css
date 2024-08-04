@@ -1,0 +1,96 @@
+/* Set the body background color to black */
+body {
+  background-color: #000000;
+  box-sizing: border-box;
+  color: #fff;
+  /* White text color */
+  font-family: Arial, sans-serif;
+  /* Optional: Set a default font */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+/* Container for the form */
+form {
+  background-color: rgba(167, 154, 154, 0.1);
+  /* Black with transparency */
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 100vw;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  /* White text */
+}
+
+/* Styling for the form heading */
+form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Container for each form field */
+form div {
+  margin-bottom: 15px;
+}
+
+/* Styling for the labels */
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+/* Styling for the input fields */
+form input[type="text"],
+form input[type="password"] {
+  width: 96%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(106, 102, 102, 0.2);
+  /* Light transparency */
+  color: #fff;
+}
+
+/* Input focus effect */
+form input[type="text"]:focus,
+form input[type="password"]:focus {
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  /* Slightly lighter transparency */
+}
+
+/* Styling for the submit button */
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #000;
+  /* Solid black */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Button hover effect */
+form button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  /* Slight transparency on hover */
+}
+
+.error {
+  color: crimson;
+  font-size: .8rem;
+
+}
+
+.error_border {
+  border: 1px solid crimson;
+}
